@@ -72,7 +72,7 @@ Any changes you make will probably require restarting the app with `phonegap run
 Helpful Tips
 =============
 
-This application pulls data from Forecast.io and requires an API key to function. The API key ('var APIKey' in index.js) may work for a while, but you should create your own. Go to developer.forecast.io and click "Register." You can have your own key in moments, then replace the key in index.js.
+This application pulls data from Forecast.io and requires an API key to function. The API key ('var APIKey' in index.js) may work for a while, but you should create your own. Go to [developer.forecast.io](https://developer.forecast.io) and click "Register." You can have your own key in moments, then replace the key in index.js.
 
 
 For debugging, you have to use Safari. Open Safari and navigate to Safari | Preferences then click the checkbox for "Show Develop menu in menu bar." Now you should see the Develop tab in the menu bar, and see iOS Simulator inside. If iOS Simulator is open, you can select `index.html` and open a Safari console for debugging. If geolocation isn't working entering `location.reload();` may throw a useful error.
